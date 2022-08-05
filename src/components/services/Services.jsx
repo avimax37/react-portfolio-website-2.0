@@ -34,7 +34,7 @@ const Services = () => {
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Conducting user research to identify any goals, needs, behaviors, and pain points involved with a product interaction.</p>
+              <p>Conducting user research to identify any goals, needs and behaviors involved with a product interaction.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
@@ -53,31 +53,31 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Having in-depth knowledge of HTML and CSS.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Having good analytical skills to examine errors in the codes and correct those.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Ability to develop fully responsive web designs to ensure full functionality on various screen sizes.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Implementing complex features onto a website with the help of JavaScript.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Having good interpersonal skills is important to become a successful web developer.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Understanding the back-end basics of web development for collaborating with back-end developers.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Having the basic idea of Search Engine Optimization skills.</p>
             </li>
           </ul>
         </article>
