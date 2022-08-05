@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+
 import CTA from './CTA'
 import ME from '../../assets/dev.png'
 import HeaderSocials from './HeaderSocials'
@@ -7,6 +8,7 @@ import HeaderSocials from './HeaderSocials'
 const header = () => {
   return (
     <header id='home'>
+
       <div className="container header__container">
         <h5>Hello I am</h5>
         <h1>Avinaba Bera</h1>
@@ -20,6 +22,7 @@ const header = () => {
 
         <a href="#contact" className="scroll__down">Scroll Down</a>
       </div>
+
     </header>
   )
 }

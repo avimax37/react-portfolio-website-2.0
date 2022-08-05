@@ -1,13 +1,17 @@
 import React from 'react'
 import './footer.css'
-import {FaFacebookF} from 'react-icons/fa'
-import {FaGithub} from 'react-icons/fa'
-import {FaTwitter} from 'react-icons/fa'
+
+import { FaFacebookF } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+import { FaTwitter } from 'react-icons/fa'
 
 const footer = () => {
   return (
     <footer>
       <a href="#home" className='footer__logo'>Avinaba Bera</a>
+
+      {/* =============== FOOTER PERMALINKS =============== */}
+
       <ul className='permalinks'>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -18,11 +22,15 @@ const footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
 
+      {/* =============== FOOTER SOCIALS =============== */}
+
       <div className="footer__socials">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub/></a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter/></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
       </div>
+
+      {/* =============== FOOTER COPYRIGHT =============== */}
 
       <div className="footer__copyright">
         <small>&copy; Avinaba Bera. All rights reserved.</small>

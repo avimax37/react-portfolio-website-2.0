@@ -7,6 +7,8 @@ import IMG3 from '../../assets/proj3.jpg'
 import IMG4 from '../../assets/proj4.jpg'
 import IMG5 from '../../assets/proj5.jpg'
 
+{/* =============== DATA ARRAY MAPPING =============== */}
+
 const data = [
   {
     id: 1,
@@ -50,6 +52,8 @@ const portfolio = () => {
     <section id='portfolio'>
       <h5>My Recent Works</h5>
       <h2>Portfolio</h2>
+
+      {/* =============== DATA MAP METHOD =============== */}
 
       <div className="container portfolio__container">
         {

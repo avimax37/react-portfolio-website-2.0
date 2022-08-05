@@ -1,5 +1,6 @@
 import React from 'react'
 import './experience.css'
+
 import { BsPatchCheckFill } from 'react-icons/bs'
 
 const experience = () => {
@@ -10,11 +11,12 @@ const experience = () => {
 
       <div className="container experience__container">
 
-        {/* ==================== FRONTEND DEVELOPMENT ==================== */}
+        {/* =============== FRONTEND DEVELOPMENT =============== */}
 
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -22,6 +24,7 @@ const experience = () => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -29,6 +32,7 @@ const experience = () => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -36,6 +40,7 @@ const experience = () => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -43,6 +48,7 @@ const experience = () => {
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -50,14 +56,16 @@ const experience = () => {
                 <small className='text-light'>Basic</small>
               </div>
             </article>
+
           </div>
         </div>
 
-        {/* ==================== BACKEND DEVELOPMENT ==================== */}
+        {/* =============== BACKEND DEVELOPMENT =============== */}
 
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -65,6 +73,7 @@ const experience = () => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -72,6 +81,7 @@ const experience = () => {
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -79,6 +89,7 @@ const experience = () => {
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -86,6 +97,7 @@ const experience = () => {
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
+
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -93,6 +105,7 @@ const experience = () => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+            
           </div>
         </div>
 

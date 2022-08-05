@@ -1,5 +1,6 @@
 import React from 'react'
 import './services.css'
+
 import { FiCheck } from 'react-icons/fi'
 
 const Services = () => {
@@ -9,6 +10,8 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services__container">
+
+        {/* =============== START OF UI/UX =============== */}
 
         <article className="service">
           <div className="service__head">
@@ -43,7 +46,7 @@ const Services = () => {
           </ul>
         </article>
 
-        {/* =============== END OF UI/UX =============== */}
+        {/* =============== START OF WEB DEVELOPMENT =============== */}
 
         <article className="service">
           <div className="service__head">
@@ -82,7 +85,7 @@ const Services = () => {
           </ul>
         </article>
 
-        {/* =============== END OF WEB DEVELOPMENT =============== */}
+        {/* =============== START OF CONTENT CREATION =============== */}
 
         <article className="service">
           <div className="service__head">
@@ -92,32 +95,30 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Researching and analyzing information related to the key topic.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Knowing the audience before starting to create the content.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Creating short, medium and long content depending on the assignment.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Having options for photographic and videographic content with deep knowledge of those formats.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Searching optimization is at the heart of quality content.</p>
             </li>
             <li>
               <FiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Planning and creating content with the support of modern technology.</p>
             </li>
           </ul>
         </article>
-
-        {/* =============== END OF CONTENT CREATION =============== */}
 
       </div>
     </section>

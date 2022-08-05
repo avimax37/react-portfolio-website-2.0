@@ -1,9 +1,11 @@
 import React from 'react'
 import { useRef as UseRef } from "react";
 import './contact.css'
+
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsWhatsapp } from 'react-icons/bs'
+
 import emailjs from 'emailjs-com'
 
 const contact = () => {
@@ -23,6 +25,9 @@ const contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
+
+          {/* =============== EMAIL =============== */}
+
           <article className='contact__option'>
             <AiOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
@@ -30,12 +35,16 @@ const contact = () => {
             <a href="mailto:avimax37@gmail.com" target="_blank" rel="noopener noreferrer">Send me an Email</a>
           </article>
 
+          {/* =============== LINKEDIN =============== */}
+
           <article className='contact__option'>
             <BsLinkedin className='contact__option-icon' />
             <h4>LinkedIn</h4>
             <h5>Avinaba Bera</h5>
             <a href="https://linkedin.com/in/avinaba-bera" target="_blank" rel="noopener noreferrer">Connect with me</a>
           </article>
+
+          {/* =============== WHATSAPP =============== */}
 
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon' />
@@ -45,7 +54,7 @@ const contact = () => {
           </article>
         </div>
 
-        {/* CONTACT FORM */}
+        {/* =============== CONTACT FORM =============== */}
 
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
