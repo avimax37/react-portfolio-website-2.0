@@ -6,6 +6,8 @@ import AVTR2 from '../../assets/client1.jpg'
 import AVTR3 from '../../assets/client1.jpg'
 import AVTR4 from '../../assets/client1.jpg'
 
+import { BsLinkedin } from 'react-icons/bs'
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from 'swiper';
 
@@ -14,22 +16,26 @@ import 'swiper/swiper.min.css'
 
 const data = [
   {
-    avatar: AVTR1,
+    id: 1,
+    link: 'https://linkedin.com/in/avinaba-bera',
     name: 'Avinaba Bera',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident minima neque fugit numquam beatae autem perspiciatis commodi! Totam quas in sequi molestias placeat repellat, animi voluptatum? Modi, blanditiis animi.'
   },
   {
-    avatar: AVTR2,
+    id: 2,
+    link: 'https://linkedin.com/in/avinaba-bera',
     name: 'Avinaba Bera',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident minima neque fugit numquam beatae autem perspiciatis commodi! Totam quas in sequi molestias placeat repellat, animi voluptatum? Modi, blanditiis animi.'
   },
   {
-    avatar: AVTR3,
+    id: 3,
+    link: 'https://linkedin.com/in/avinaba-bera',
     name: 'Avinaba Bera',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident minima neque fugit numquam beatae autem perspiciatis commodi! Totam quas in sequi molestias placeat repellat, animi voluptatum? Modi, blanditiis animi.'
   },
   {
-    avatar: AVTR4,
+    id: 4,
+    link: 'https://linkedin.com/in/avinaba-bera',
     name: 'Avinaba Bera',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident minima neque fugit numquam beatae autem perspiciatis commodi! Totam quas in sequi molestias placeat repellat, animi voluptatum? Modi, blanditiis animi.'
   },
@@ -50,11 +56,11 @@ const testimonials = () => {
         {/* =============== DATA MAP METHOD =============== */}
 
         {
-          data.map(({ avatar, name, review }, index) => {
+          data.map(({ link, name, review }, index) => {
             return (
               <SwiperSlide key={index} className='testimonial'>
                 <div className="client__avatar">
-                  <img src={avatar} alt='Avatar' />
+                  <a href={link} target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
                 </div>
                 <h5 className='client__name'>{name}</h5>
                 <small className='client__review'>{review}</small>

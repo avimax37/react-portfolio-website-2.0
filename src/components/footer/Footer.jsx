@@ -25,9 +25,9 @@ const footer = () => {
       {/* =============== FOOTER SOCIALS =============== */}
 
       <div className="footer__socials">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+        <a href="https://facebook.com/avinababera277/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+        <a href="https://github.com/avimax37" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://twitter.com/IainSchneider" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
       </div>
 
       {/* =============== FOOTER COPYRIGHT =============== */}

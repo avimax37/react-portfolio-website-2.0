@@ -8,7 +8,12 @@
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+    justify-items: center;
+}
+
+.client__avatar a{
+    font-size: 40px;
+    aspect-ratio: 1/1;
 }
 
 .testimonial{
