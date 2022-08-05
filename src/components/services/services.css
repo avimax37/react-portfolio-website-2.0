@@ -43,11 +43,13 @@
 
 .service__list-icon {
     color: var(--color-primary);
-    margin-top: 2px;
+    margin-top: 7px;
+    position: absolute;
 }
 
 .service__list p {
     font-size: 0.9rem;
+    padding-left: 2rem;
 }
 
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ====================*/
