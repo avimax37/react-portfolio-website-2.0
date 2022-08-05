@@ -7,8 +7,6 @@ import IMG3 from '../../assets/proj3.jpg'
 import IMG4 from '../../assets/proj4.jpg'
 import IMG5 from '../../assets/proj5.jpg'
 
-{/* =============== DATA ARRAY MAPPING =============== */}
-
 const data = [
   {
     id: 1,

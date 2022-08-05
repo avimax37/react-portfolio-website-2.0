@@ -6,7 +6,7 @@ import { BsTwitter } from 'react-icons/bs'
 
 const HeaderSocials = () => {
 
-  {/* =============== HEADER SOCIALS =============== */ }
+  {/* =============== HEADER SOCIALS =============== */}
 
   return (
     <div className='header__socials'>
