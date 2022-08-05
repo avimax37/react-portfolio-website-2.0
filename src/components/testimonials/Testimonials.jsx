@@ -1,11 +1,6 @@
 import React from 'react'
 import './testimonials.css'
 
-import AVTR1 from '../../assets/client1.jpg'
-import AVTR2 from '../../assets/client1.jpg'
-import AVTR3 from '../../assets/client1.jpg'
-import AVTR4 from '../../assets/client1.jpg'
-
 import { BsLinkedin } from 'react-icons/bs'
 
 import { Swiper, SwiperSlide } from "swiper/react";
