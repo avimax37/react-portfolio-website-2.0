@@ -13,7 +13,7 @@ const data = [
     image: IMG1,
     title: 'Speed and Direction Control of DC Motor Using Arduino',
     github: 'https://github.com/avimax37/Speed-Direction-Control-DC-Motor-Arduino.git',
-    learnmore: 'https://speedcontrolofdcmotoruemk.blogspot.com/2022/08/speed-control-of-dc-motor-uemk.html'
+    learnmore: 'https://uemkprojects2023.blogspot.com/2022/08/speed-control-of-dc-motor-uemk.html'
   },
   {
     id: 2,
@@ -25,9 +25,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Project 3',
-    github: 'https://github.com',
-    learnmore: 'https://blogger.com'
+    title: `'PAWS' - A Website for Animal Rescue and Adoption`,
+    github: 'https://github.com/avimax37/PAWS-Animal-Rescue-And-Adoption',
+    learnmore: 'https://uemkprojects2023.blogspot.com/2022/08/paws-website-for-animal-rescue-and.html'
   },
   {
     id: 4,
