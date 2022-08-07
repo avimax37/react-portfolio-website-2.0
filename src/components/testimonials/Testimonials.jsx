@@ -24,15 +24,15 @@ const data = [
   },
   {
     id: 3,
-    link: 'https://linkedin.com/in/avinaba-bera',
-    name: 'Avinaba Bera',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident minima neque fugit numquam beatae autem perspiciatis commodi! Totam quas in sequi molestias placeat repellat, animi voluptatum? Modi, blanditiis animi.'
+    link: 'https://www.linkedin.com/in/pratyay-basu-b84a38193/',
+    name: 'Pratyay Basu',
+    review: '"Avinaba Bera proved to be a great person as a well educated web developer who can be trusted. Loyal, insightful and independent. He is a reliable and forward thinking developer. He always maintains very good relation with group members. He is a truly remarkable person."'
   },
   {
     id: 4,
-    link: 'https://linkedin.com/in/avinaba-bera',
-    name: 'Avinaba Bera',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident minima neque fugit numquam beatae autem perspiciatis commodi! Totam quas in sequi molestias placeat repellat, animi voluptatum? Modi, blanditiis animi.'
+    link: 'https://www.linkedin.com/in/debjit-chattopadhyay-710336188/',
+    name: 'Debjit Chattopadhyay',
+    review: '"Avinaba Bera has a very strong working nature and has unparalleled problem solving skills. His performance at UEMK was golden. Deliver results and move on. That is his way. He always maintains very good relation with his team members. I recommend him as a web developer."'
   },
 ]
 
