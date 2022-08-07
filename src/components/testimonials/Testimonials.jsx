@@ -13,14 +13,14 @@ const data = [
   {
     id: 1,
     link: 'https://www.linkedin.com/in/vishal-kumar-shaw-21a985192/',
-    name: 'VISHAL KUMAR SHAW',
-    review: 'It is an absolute joy to work with Avinaba Bera. I have worked with him for almost 3+ years now for all our projects and our team has always received a first class service when it comes to any queries related to web development..... would highly recommend him as a web developer.'
+    name: 'Vishal Kumar Shaw',
+    review: '"It is an absolute joy to work with Avinaba Bera. I have worked with him for almost 3+ years now for all our projects and our team has always received a first class service when it comes to any queries related to web development..... would highly recommend him as a web developer."'
   },
   {
     id: 2,
-    link: 'https://linkedin.com/in/avinaba-bera',
-    name: 'Avinaba Bera',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident minima neque fugit numquam beatae autem perspiciatis commodi! Totam quas in sequi molestias placeat repellat, animi voluptatum? Modi, blanditiis animi.'
+    link: 'https://www.linkedin.com/in/anubhab-de-bhowmik-5371361b2/',
+    name: 'Anubhab De Bhowmik',
+    review: '"Good hardworking guy. Dependable."'
   },
   {
     id: 3,
