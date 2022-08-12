@@ -18,9 +18,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Project 2',
-    github: 'https://github.com',
-    learnmore: 'https://blogger.com'
+    title: `Sentiment Analysis on Amazon's Customer Reviews`,
+    github: 'https://github.com/avimax37/Sentiment-Analysis-on-Amazon-s-Customer-Reviews',
+    learnmore: 'https://uemkprojects2023.blogspot.com/2022/08/sentiment-analysis-on-amazons-customer.html'
   },
   {
     id: 3,
