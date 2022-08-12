@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": false,
+    "diffEditor.maxComputationTime": 10000,
+    "diffEditor.maxFileSize": 0,
+    "diffEditor.wordWrap": "on",
+    "editor.minimap.autohide": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": true,
+    "editor.mouseWheelZoom": true,
+    "explorer.decorations.badges": true
+}
