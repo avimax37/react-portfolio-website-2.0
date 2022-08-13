@@ -27,7 +27,7 @@ const about = () => {
             <article className="about__card">
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>3+ Years</small>
+              <small>6+ Months</small>
             </article>
 
             {/* =============== CERTIFICATES =============== */}
@@ -50,7 +50,7 @@ const about = () => {
           {/* =============== ABOUT ME =============== */}
 
           <p>
-            I've spent the last 3+ years working with HTML, CSS, JavaScript, NodeJS, ReactJS, MongoDB learning everything from front-end to back-end. My experience as a front-end developer has helped me collaborate with fellow developers from all over our university. Additionally, working with experienced developers isn't an easy task, however, it has helped me become efficient, productive and fast even in a very stressful environment, which is an important skill in the tech industry.
+            I've spent the last 6+ months working with HTML, CSS, JavaScript, NodeJS, ReactJS learning almost everything related to front-end. My experience as a front-end developer has helped me collaborate with fellow developers from all over our university. Additionally, working with experienced developers isn't an easy task, however, it has helped me become efficient, productive and fast even in a very stressful environment, which is an important skill in the tech industry.
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
