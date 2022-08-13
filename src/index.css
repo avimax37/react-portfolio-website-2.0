@@ -134,6 +134,10 @@ img {
     section {
         margin-top: 6rem;
     }
+
+    body {
+        background-attachment: fixed;
+    }
 }
 
 /* ==================== MEDIA QUERIES (SMALL DEVICES) ====================*/
@@ -145,5 +149,9 @@ img {
 
     section>h2 {
         margin-bottom: 2rem;
+    }
+
+    body {
+        background-attachment: fixed;
     }
 }
